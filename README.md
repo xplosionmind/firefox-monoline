@@ -11,6 +11,9 @@ Place everything of your Firefox toolbar in one single line, similar to modern S
 - preserve icons and functionalities for which no keyboard shortcut exists
 - non-breaking implementation
 
+![Screenshot light theme](https://user-images.githubusercontent.com/42862428/171851199-7206bfd1-7fab-49b9-9498-58db8ccd3482.jpg)
+![Screenshot dark theme](https://user-images.githubusercontent.com/42862428/171851212-4634325b-fc4d-475c-ba03-5b63df011a20.jpg)
+
 <br>
 <br>
 

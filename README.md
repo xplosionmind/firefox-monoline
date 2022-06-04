@@ -1,39 +1,38 @@
-# Firefox Monoline
+# 🦊 Firefox Monoline
 
-Place everything of your Firefox toolbar in one single line, similar to modern Safari.
+Minimize your Firefox toolbar to **one single line**.
 
 <br>
+
+![firefox-monoline-preview](https://user-images.githubusercontent.com/42862428/172017568-f908f7ae-5a2a-46fe-a43c-3d2ae2edbb79.gif)
+
 <br>
 
 ## Features
 
-- Remove clutter and make Firefox toolbar as compact as possible
-- preserve icons and functionalities for which no keyboard shortcut exists
-- non-breaking implementation
-- Do you have a suggestion? Share it [here](https://github.com/xplosionmind/firefox-monoline 'Firefox Monoline issues on GitHub'))!
-
-![Screenshot light theme](https://user-images.githubusercontent.com/42862428/171851199-7206bfd1-7fab-49b9-9498-58db8ccd3482.jpg)
-![Screenshot dark theme](https://user-images.githubusercontent.com/42862428/171851212-4634325b-fc4d-475c-ba03-5b63df011a20.jpg)
+- 🧹 Remove clutter and make Firefox toolbar as essential as possible 🚀
+- 🚗 Compact mode support
+- ⚠️ Preserve icons and functionalities for which no ⌨️ keyboard shortcut exists
+- ✅ Non-breaking implementation
+- 💡 Do you have a suggestion? Share it [here](https://github.com/xplosionmind/firefox-monoline 'Firefox Monoline issues on GitHub'))!
 
 <br>
 <br>
 
 ## Bugs
 
-Report bugs [here](https://github.com/xplosionmind/firefox-monoline 'Firefox Monoline issues on GitHub').
+🕷 Report bugs [here](https://github.com/xplosionmind/firefox-monoline 'Firefox Monoline issues on GitHub').
 
 <br>
 <br>
 
 
-## How to start
+## Usage
 
 - visit `about:config`
   - set `toolkit.legacyUserProfileCustomizations.stylesheets`: `true`
-  - `browser.compactmode.show`: `true`
   - `extensions.pocket.enabled`: `false`
 - Go to Menu > More Tools > Customize Toolbar:
-  - at the bottom, set density as “compact”,
   - auto-hide downloads button
   - remove all flexible space
   - remove all icons
@@ -43,8 +42,23 @@ Report bugs [here](https://github.com/xplosionmind/firefox-monoline 'Firefox Mon
 - run `git clone https://codeberg.org/tommi/firefox-monoline.git chrome`
 
 <br>
+
+### Compact mode
+
+The built-in Firefox “Compact mode” vertically compresses the navigation bar by slightly **reducing its height**. To activate it:
+
+1. visit the `about:config` page;
+2. search for `browser.compactmode.show` and change it to `true`;
+3. go to Menu > More Tools > Customize Toolbar, set density as “compact”.
+
+In order to use Compact mode with <cite>Firefox Monoline</cite> it is necessary to change some parts of [userChrome.css](./userChrome.css):
+
+- remove [the first 9 lines](https://github.com/xplosionmind/firefox-monoline/blob/main/userChrome.css#L1-L9) (delete `urlbar-container` and `urlbar` styling)
+- in [line 34](https://github.com/xplosionmind/firefox-monoline/blob/main/userChrome.css#L34), change the value to `-36px !important`
+
+<br>
 <br>
 
 ## Related projects
 
-- Inspired from [one-line-firefox](https://github.com/khuedoan/one-line-firefox 'one-line-firefox GitHub repository')
+- Inspired from [one-line-firefox](https://github.com/khuedoan/one-line-firefox 'one-line-firefox GitHub repository') 👀

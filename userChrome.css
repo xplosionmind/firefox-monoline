@@ -5,7 +5,7 @@
 #urlbar {
     --urlbar-height: 36px !important;
     --urlbar-toolbar-height: 44px !important;
-}
+} /* remove everything above here to support “Compact mode” */
 
 /* Title bar */
 .titlebar-buttonbox {
@@ -22,7 +22,7 @@
 }
 
 #TabsToolbar {
-    margin-left: calc(20vw + 5px + 36px + 5px) !important;
+    margin-left: calc(20vw + 5px) !important;
     margin-right: calc(39px + 29px) !important;
     z-index: 2;
     position: relative;

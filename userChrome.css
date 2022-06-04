@@ -59,8 +59,9 @@
 }
 
 #urlbar[breakout][breakout-extend] {
-    width: 50vw !important;
-    top: 4px !important;
+    width: 500px !important;
+    min-width: 50vw !important;
+    max-width: 100vw !important;
 }
 
 #page-action-buttons {

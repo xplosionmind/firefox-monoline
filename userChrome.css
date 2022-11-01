@@ -72,6 +72,14 @@
     padding: 0 !important;
 }
 
+#firefox-view-button {
+    display: none;
+}
+
+#tabbrowser-tabs {
+    border-inline-start: none !important;
+}
+
 /* extra */
 /*toolbarbutton {
     filter: grayscale(1);

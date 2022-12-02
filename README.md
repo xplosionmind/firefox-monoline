@@ -2,11 +2,7 @@
 
 Minimize your Firefox toolbar to **one single line**.
 
-<br>
-
 ![firefox-monoline-preview](https://user-images.githubusercontent.com/42862428/172017568-f908f7ae-5a2a-46fe-a43c-3d2ae2edbb79.gif)
-
-<br>
 
 ## Features
 
@@ -16,18 +12,7 @@ Minimize your Firefox toolbar to **one single line**.
 - ✅ Non-breaking implementation
 - 💡 Do you have a suggestion? Share it [here](https://github.com/xplosionmind/firefox-monoline 'Firefox Monoline issues on GitHub'))!
 
-<br>
-<br>
-
-## Bugs
-
-🕷 Report bugs [here](https://github.com/xplosionmind/firefox-monoline 'Firefox Monoline issues on GitHub').
-
-<br>
-<br>
-
-
-## Usage
+## 🧑🏻‍💻 Usage
 
 - visit `about:config`
   - set `toolkit.legacyUserProfileCustomizations.stylesheets`: `true`
@@ -41,9 +26,7 @@ Minimize your Firefox toolbar to **one single line**.
 - run `cd /path/to/profile`
 - run `git clone https://codeberg.org/tommi/firefox-monoline.git chrome`
 
-<br>
-
-### Compact mode
+### 🚗 Compact mode
 
 The built-in Firefox “Compact mode” vertically compresses the navigation bar by slightly **reducing its height**. To activate it:
 
@@ -56,9 +39,17 @@ In order to use Compact mode with <cite>Firefox Monoline</cite> it is necessary 
 - remove [the first 9 lines](https://github.com/xplosionmind/firefox-monoline/blob/main/userChrome.css#L1-L9) (delete `urlbar-container` and `urlbar` styling)
 - in [line 34](https://github.com/xplosionmind/firefox-monoline/blob/main/userChrome.css#L34), change the value to `-36px !important`
 
-<br>
-<br>
+## 🪞 Mirrors
 
-## Related projects
+The main repository is [hosted on GiTMI](https://gitmi.dev/tommi/firefox-monoline 'Firefox Monoline repository on GiTMI').
 
-- Inspired from [one-line-firefox](https://github.com/khuedoan/one-line-firefox 'one-line-firefox GitHub repository') 👀
+- [GitHub](https://github.com/firefox-monoline 'Firefox Monline repository on GitHub')
+- [Codeberg](https://codeberg.org/tommi/firefox-monoline 'Firefox Monoline repository on Codeberg')
+
+## 🕷 Bugs
+
+Report bugs [here](https://github.com/xplosionmind/firefox-monoline 'Firefox Monoline issues on GitHub').
+
+## 🧐 Related projects 👀
+
+- Inspired from [one-line-firefox](https://github.com/khuedoan/one-line-firefox 'one-line-firefox GitHub repository')

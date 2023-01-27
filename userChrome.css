@@ -1,86 +1,86 @@
 #urlbar-container {
-    --urlbar-container-height: 44px !important;
+	--urlbar-container-height: 44px !important;
 }
 
 #urlbar {
-    --urlbar-height: 36px !important;
-    --urlbar-toolbar-height: 44px !important;
+	--urlbar-height: 36px !important;
+	--urlbar-toolbar-height: 44px !important;
 } /* remove everything above here to support “Compact mode” */
 
 /* Title bar */
 .titlebar-buttonbox {
-    display: none !important;
+	display: none !important;
 }
 
 .titlebar-spacer {
-    display: none !important;
+	display: none !important;
 }
 
 /* Tab bar */
 #navigator-toolbox {
-    border: 0px !important;
+	border: 0px !important;
 }
 
 #TabsToolbar {
-    margin-left: calc(20vw + 5px) !important;
-    margin-right: calc(39px + 29px) !important;
-    z-index: 2;
-    position: relative;
+	margin-left: calc(20vw + 5px) !important;
+	margin-right: calc(39px + 29px) !important;
+	z-index: 2;
+	position: relative;
 }
 
 /* Nav bar*/
 #nav-bar {
-    background: transparent !important;
-    margin-top: -44px !important;   /* change to -36px when “Compact mode” is enabled */
+	background: transparent !important;
+	margin-top: -44px !important;   /* change to -36px when “Compact mode” is enabled */
 }
 
 /* URL bar */
 #back-button {
-    display: none !important;
+	display: none !important;
 }
 
 #forward-button {
-    display: none !important;
+	display: none !important;
 }
 
 #tracking-protection-icon-container {
-    display: none !important;
+	display: none !important;
 }
 
 #urlbar-container {
-    min-width: 20vw !important;
-    max-width: 20vw !important;
+	min-width: 20vw !important;
+	max-width: 20vw !important;
 }
 
 #urlbar {
-    background: transparent !important;
-    border: none !important;
-    box-shadow: none !important;
+	background: transparent !important;
+	border: none !important;
+	box-shadow: none !important;
 }
 
 #urlbar[breakout][breakout-extend] {
-    width: 500px !important;
-    min-width: 50vw !important;
-    max-width: 100vw !important;
+	width: 500px !important;
+	min-width: 50vw !important;
+	max-width: 100vw !important;
 }
 
 #page-action-buttons {
-    display: none !important;
+	display: none !important;
 }
 
 #nav-bar-overflow-button {
-    padding: 0 !important;
+	padding: 0 !important;
+	z-index: 9;
 }
 
 #firefox-view-button {
-    display: none;
+	display: none;
 }
 
 #tabbrowser-tabs {
-    border-inline-start: none !important;
+	border-inline-start: none !important;
 }
 
-/* extra */
-/*toolbarbutton {
-    filter: grayscale(1);
-}*/
+#alltabs-button {
+	display: none;
+}

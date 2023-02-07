@@ -23,7 +23,7 @@
 
 #TabsToolbar {
 	margin-left: calc(20vw + 5px) !important;
-	margin-right: calc(39px + 29px) !important;
+	margin-right: calc(39px + 29px + 39px) !important;
 	z-index: 2;
 	position: relative;
 }

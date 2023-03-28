@@ -64,6 +64,11 @@
 	max-width: 100vw !important;
 }
 
+#urlbar-background, #searchbar {
+	background-color: none !important;
+	border: none !important;
+}
+
 #page-action-buttons {
 	display: none !important;
 }

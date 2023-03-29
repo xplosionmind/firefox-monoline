@@ -101,6 +101,8 @@
 #urlbar-background {
 	background-color: transparent !important;
 	border: none !important;
+	/* Match tabs border radius */
+	--toolbarbutton-border-radius: 8px !important;
 }
 
 /* …but not when it is open */

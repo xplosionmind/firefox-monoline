@@ -65,7 +65,7 @@
 }
 
 #urlbar-background, #searchbar {
-	background-color: none !important;
+	background-color: transparent !important;
 	border: none !important;
 }
 

@@ -55,8 +55,8 @@
 	display: -moz-box !important;
 }
 
-#urlbar-input-box {
-	margin: 5px;
+.urlbar-input-box {
+	padding-left: 5px;
 }
 
 #urlbar {

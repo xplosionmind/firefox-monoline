@@ -64,9 +64,15 @@
 	max-width: 100vw !important;
 }
 
-#urlbar-background, #searchbar {
+/* no border or background in urlbar… */
+#urlbar-background {
 	background-color: transparent !important;
 	border: none !important;
+}
+
+/* …but not when it is open */
+#urlbar[breakout][breakout-extend] #urlbar-background {
+	background-color: Field !important;
 }
 
 #page-action-buttons {

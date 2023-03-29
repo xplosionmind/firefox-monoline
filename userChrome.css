@@ -106,4 +106,6 @@
 /* …but not when it is open */
 #urlbar[breakout][breakout-extend] #urlbar-background {
 	background-color: Field !important;
+	/* nicer border-radius */
+	border-radius: 10px 0 10px 0 !important;
 }

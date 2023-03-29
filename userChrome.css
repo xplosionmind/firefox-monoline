@@ -9,10 +9,7 @@
 
 /* Title bar */
 /*************/
-.titlebar-buttonbox {
-	display: none !important;
-}
-
+.titlebar-buttonbox,
 .titlebar-spacer {
 	display: none !important;
 }
@@ -39,21 +36,27 @@
 
 /* URL bar */
 /***********/
-#back-button {
-	display: none !important;
-}
-
-#forward-button {
-	display: none !important;
-}
-
-#tracking-protection-icon-container {
-	display: none !important;
-}
-
 #urlbar-container {
 	min-width: 20vw !important;
 	max-width: 20vw !important;
+}
+
+#back-button,
+#forward-button,
+#tracking-protection-icon-container,
+#identity-box,
+#page-action-buttons,
+#firefox-view-button,
+#alltabs-button {
+	display: none !important;
+}
+
+#urlbar[breakout][breakout-extend] #page-action-buttons {
+	display: -moz-box !important;
+}
+
+#urlbar-input-box {
+	margin: 5px;
 }
 
 #urlbar {
@@ -68,25 +71,13 @@
 	max-width: 100vw !important;
 }
 
-#page-action-buttons {
-	display: none !important;
-}
-
 #nav-bar-overflow-button {
 	padding: 0 !important;
 	z-index: 9;
 }
 
-#firefox-view-button {
-	display: none;
-}
-
 #tabbrowser-tabs {
 	border-inline-start: none !important;
-}
-
-#alltabs-button {
-	display: none;
 }
 
 /* Further opinionated customizations */

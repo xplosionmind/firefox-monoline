@@ -52,4 +52,6 @@ Report bugs [here](https://github.com/xplosionmind/firefox-monoline 'Firefox Mon
 
 ## 🧐 Related projects 👀
 
-- Inspired from [one-line-firefox](https://github.com/khuedoan/one-line-firefox 'one-line-firefox GitHub repository')
+- Mainly inspired from [one-line-firefox](https://github.com/khuedoan/one-line-firefox 'one-line-firefox GitHub repository')
+- [Oneline Proton](https://github.com/newmanls/OnelineProton 'Oneline Proton source code on GitHub')
+- [Firefox-Onebar](https://codeberg.org/Freeplay/Firefox-Onebar 'Firefox-Onebar source code on Codeberg')

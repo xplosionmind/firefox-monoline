@@ -34,6 +34,12 @@
 	margin-top: -44px !important;   /* change to -36px when “Compact mode” is enabled */
 }
 
+#unified-extensions-button {
+	position: absolute;
+	right: 39px;
+	top 5px;
+}
+
 /* URL bar */
 /***********/
 #urlbar-container {

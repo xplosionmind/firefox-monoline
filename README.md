@@ -41,7 +41,7 @@ In order to use Compact mode with <cite>Firefox Monoline</cite> it is necessary 
 
 ## 👾 Source code
 
-This repository is [hosted on Codeberg](https://codeberg.org/tommi/firefox-monoline 'Firefox Monoline repository on Codeberg'), and it is mirrored on [GitHub](https://github.com/firefox-monoline 'Firefox Monline repository on GitHub'), where [issues](https://github.com/firefox-monoline/issues 'Firefox Monoline issues on GitHub') are tracked.
+This repository is [hosted on Codeberg](https://codeberg.org/tommi/firefox-monoline 'Firefox Monoline repository on Codeberg'), and it is mirrored on [GitHub](https://github.com/xplosionmind/firefox-monoline 'Firefox Monline repository on GitHub'), where [issues](https://github.com/xplosionmind/firefox-monoline/issues 'Firefox Monoline issues on GitHub') are tracked.
 
 ## 🕷 Bugs
 

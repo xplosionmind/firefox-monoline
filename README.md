@@ -39,16 +39,13 @@ In order to use Compact mode with <cite>Firefox Monoline</cite> it is necessary 
 - remove [the first 9 lines](https://github.com/xplosionmind/firefox-monoline/blob/main/userChrome.css#L1-L9) (delete `urlbar-container` and `urlbar` styling)
 - in [line 34](https://github.com/xplosionmind/firefox-monoline/blob/main/userChrome.css#L34), change the value to `-36px !important`
 
-## 🪞 Mirrors
+## 👾 Source code
 
-The main repository is [hosted on GiTMI](https://gitmi.dev/tommi/firefox-monoline 'Firefox Monoline repository on GiTMI').
-
-- [GitHub](https://github.com/firefox-monoline 'Firefox Monline repository on GitHub')
-- [Codeberg](https://codeberg.org/tommi/firefox-monoline 'Firefox Monoline repository on Codeberg')
+This repository is [hosted on Codeberg](https://codeberg.org/tommi/firefox-monoline 'Firefox Monoline repository on Codeberg'), and it is mirrored on [GitHub](https://github.com/firefox-monoline 'Firefox Monline repository on GitHub'), where [issues](https://github.com/firefox-monoline/issues 'Firefox Monoline issues on GitHub') are tracked.
 
 ## 🕷 Bugs
 
-Report bugs [here](https://github.com/xplosionmind/firefox-monoline 'Firefox Monoline issues on GitHub').
+Report bugs [here](https://github.com/xplosionmind/firefox-monoline/issues 'Firefox Monoline issues on GitHub').
 
 ## 🧐 Related projects 👀
 

@@ -2,8 +2,6 @@
 
 Minimize your Firefox toolbar to **one single line**.
 
-![firefox-monoline-preview](https://user-images.githubusercontent.com/42862428/172017568-f908f7ae-5a2a-46fe-a43c-3d2ae2edbb79.gif)
-
 ## 🛑 No longer maintained 🛑
 
 I am no longer maintaining this repository, for three reasons.
@@ -19,6 +17,8 @@ I am no longer maintaining this repository, for three reasons.
 - ⚠️ Preserve icons and functionalities for which no ⌨️ keyboard shortcut exists
 - ✅ Non-breaking implementation
 - 💡 Do you have a suggestion? Share it [here](https://github.com/xplosionmind/firefox-monoline 'Firefox Monoline issues on GitHub'))!
+
+![firefox-monoline-preview](https://user-images.githubusercontent.com/42862428/172017568-f908f7ae-5a2a-46fe-a43c-3d2ae2edbb79.gif)
 
 ## 🧑🏻‍💻 Usage
 

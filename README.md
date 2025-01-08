@@ -4,6 +4,14 @@ Minimize your Firefox toolbar to **one single line**.
 
 ![firefox-monoline-preview](https://user-images.githubusercontent.com/42862428/172017568-f908f7ae-5a2a-46fe-a43c-3d2ae2edbb79.gif)
 
+## 🛑 No longer maintained 🛑
+
+I am no longer maintaining this repository, for three reasons.
+
+- I am happily using the gorgeous [Firefox GNOME theme](https://github.com/rafaelmardojai/firefox-gnome-theme 'firefox-gnome-theme repository on GitHub, by Rafael Mardojai'), and I am sticking with it, for the moment.
+- Unfortunately, as I am not using this theme myself I do not have enough time to properly tinker with this, and I would prefer [to prioritize other projects](https://codeberg.org/tommi?tab=repositories 'My repositories on Codeberg').
+- I found [Firefox Onebar](https://git.gay/freeplay/Firefox-Onebar 'Firefox-Onebar repository on git.gay, by freeplay') to be a much more advanced and up-to-date choice, hence I would prefer to adopt and potentially contribute to that project if I ever switched back to single-line Firefox layout.
+
 ## Features
 
 - 🧹 Remove clutter and make Firefox toolbar as essential as possible 🚀
